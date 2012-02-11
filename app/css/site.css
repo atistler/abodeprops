@@ -1,0 +1,111 @@
+body {
+    font-size: 13px;
+    font-family: Helvetica;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1150px;
+    margin: 0 auto;
+    background-color: #E3DBBF;
+    border: thin solid black;
+    margin-top: 20px;
+}
+
+.header {
+    text-align: center;
+    margin: 20px 0;
+}
+.header .description {
+    font-family: 'Alegreya SC', serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    word-spacing: 3px;
+    letter-spacing: 1.5px;
+}
+
+.header .title {
+    font-family: 'Droid Sans Mono',sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #AA0000;
+}
+
+.content {
+    background-color: white;
+    padding: 6px;
+    width: 1050px;
+    margin: 0 auto;
+    border-style: solid;
+    border-color: #A0DBBF;
+    border-width: 6px 12px;
+}
+
+.content .slider {
+    overflow: hidden;
+}
+
+.content .slider img {
+    width: 100%;
+    height: 325px;
+    display: none;
+    position: relative;
+}
+.content .slider img:first-child {
+    display: inline;
+}
+
+
+.menu {
+    margin: 6px auto;
+    width: 100%;
+}
+
+.menu .item {
+    float: left;
+    background-color: #E3DBBF;
+    margin: 0 12px;
+}
+
+.menu .item a img {
+    height: 185px;
+    width: 237px;
+    vertical-align: bottom;
+}
+
+.menu .item .title {
+    font-family: serif;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: -5px;
+    padding: 4px 0 0 4px;
+
+}
+
+.menu .item .title:first-letter {
+    font-size: 38px;
+}
+
+.horizontal_spacer {
+    background-color: black;
+    height: 2px;
+    margin: 10px auto;
+    width: 96%;
+}
+
+.vertical_spacer {
+    background-color: black;
+    float: left;
+    height: 205px;
+    margin-top: 10px;
+    width: 2px;
+}
+

@@ -1,0 +1,47 @@
+$(document).ready(function () {
+
+    var log = function () {
+    };
+    if (typeof console == "object") {
+        log = console.log;
+    }
+
+    var slide_interval = 4000;
+    var $slider = $(".slider");
+    var $current_image = $(".slider img:first");
+    var interval;
+
+    function startSlide() {
+        log("starting slide");
+        interval = setInterval(function () {
+            $current_image.hide("slide", {direction:"left"}, function () {
+                if ($current_image.is(".slider img:last")) {
+                    $next_image = $(".slider img:first");
+                } else {
+                    $next_image = $current_image.next("img");
+                }
+                $next_image.show("slide", {direction:"right"});
+                $current_image = $next_image;
+                return false;
+            });
+        }, slide_interval);
+    }
+
+    function stopSlide() {
+        log("stopping slide");
+        clearInterval(interval);
+    }
+
+    $(window).bind({
+        "focus":function () {
+            startSlide();
+        },
+        "blur":function () {
+            stopSlide();
+        }
+    });
+
+    startSlide();
+
+});
+
