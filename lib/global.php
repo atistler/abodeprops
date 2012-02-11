@@ -9,6 +9,7 @@ class Util {
         $smarty->setCompileDir('../smarty/templates_c/');
         $smarty->setConfigDir('../smarty/configs/');
         $smarty->setCacheDir('../smarty/cache/');
+        $smarty->compile_check = true;
         return $smarty;
     }
 
@@ -19,6 +20,10 @@ class Util {
             file_put_contents("../conf/lastmodified.time", $last_modified_time);
         }
         return $last_modified_time;
+    }
+
+    public static function getDefaultTpl() {
+        return "index.tpl";
     }
 }
 

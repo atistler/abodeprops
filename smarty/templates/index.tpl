@@ -1,4 +1,4 @@
-{extends file="layout.tpl"}
+{extends file="hidden/layout.tpl"}
 {block name="content"}
 <div class="content">
     <div class="slider">
@@ -9,6 +9,6 @@
         <img src="/img/living_room.jpg"/>
     </div>
     <div class="horizontal_spacer"></div>
-    {include file="menu.tpl"}
+    {include file="hidden/menu.tpl"}
 </div>
 {/block}
