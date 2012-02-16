@@ -1,6 +1,6 @@
 <?php
 
-require_once("smarty/libs/Smarty.class.php");
+require_once("Smarty-3.1.7/libs/Smarty.class.php");
 
 class Util {
     public static function getSmarty() {
@@ -26,6 +26,3 @@ class Util {
         return "index.tpl";
     }
 }
-
-
-?>

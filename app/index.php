@@ -1,11 +1,12 @@
 <?php
-require_once("../lib/global.php");
 
+require_once("../lib/global.php");
 
 $smarty = Util::getSmarty();
 
 if (isset($_GET["page"])) {
     if ($smarty->templateExists($_GET["page"] . ".tpl")) {
+        var_dump("displaying");
         $smarty->display($_GET["page"] . ".tpl");
     } else {
         header('HTTP/1.x 404 Not Found');

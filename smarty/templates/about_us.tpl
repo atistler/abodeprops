@@ -6,3 +6,4 @@
 {include file="hidden/menu.tpl"}
 </div>
 {/block}
+{block name="title"}Abode Properties - About Us{/block}

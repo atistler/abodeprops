@@ -3,6 +3,7 @@
 <div class="content">
 {include file="hidden/slider.tpl"}
     <div class="horizontal_spacer"></div>
-{include file="hidden/menu.tpl"}
+    {include file="hidden/menu.tpl"}
 </div>
 {/block}
+{block name="title"}Abode Properties - Services{/block}

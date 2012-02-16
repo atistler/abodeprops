@@ -1,13 +1,13 @@
-<?php /* Smarty version Smarty-3.1.7, created on 2012-02-16 02:09:24
-         compiled from "../smarty/templates/index.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:15107071544f36f81cad4432-74900999%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /* Smarty version Smarty-3.1.7, created on 2012-02-14 01:53:37
+         compiled from "../smarty/templates/contact.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:11057369364f378b738ee320-63071248%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
-    '0c04115701025fdf186966beead194600e6e675d' => 
+    'aedcea662bda2de944cafc405a0aa38cdb645999' => 
     array (
-      0 => '../smarty/templates/index.tpl',
-      1 => 1329375687,
+      0 => '../smarty/templates/contact.tpl',
+      1 => 1329039143,
       2 => 'file',
     ),
     '73eb0337940e16283b562f0928ed27fb8d6e091d' => 
@@ -25,7 +25,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '6602b72d7c6805704cfc326486ace5d188e6221f' => 
     array (
       0 => '../smarty/templates/hidden/slider.tpl',
-      1 => 1329375748,
+      1 => 1329108829,
       2 => 'file',
     ),
     '6ce2637a24583b2ffa23d9c568aee820537a568a' => 
@@ -35,17 +35,17 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '15107071544f36f81cad4432-74900999',
+  'nocache_hash' => '11057369364f378b738ee320-63071248',
   'function' => 
   array (
   ),
   'version' => 'Smarty-3.1.7',
-  'unifunc' => 'content_4f36f81cb2882',
+  'unifunc' => 'content_4f378b7394e3f',
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_4f36f81cb2882')) {function content_4f36f81cb2882($_smarty_tpl) {?><html>
+<?php if ($_valid && !is_callable('content_4f378b7394e3f')) {function content_4f378b7394e3f($_smarty_tpl) {?><html>
 <head>
-    <title>Abode Properties</title>
+    <title>Abode Properties - Contact</title>
 
     <meta name="description" content="Abode Properties Real Estate" />
     <meta name="keywords" content="massachusetts real estate abode properties residential homes houses" />
@@ -84,49 +84,45 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
 <?php /*  Call merged included template "hidden/header.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("hidden/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '15107071544f36f81cad4432-74900999');
-content_4f3caba4975e4($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("hidden/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '11057369364f378b738ee320-63071248');
+content_4f3a04f1415cf($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "hidden/header.tpl" */?>
 
     
 <div class="content">
 <?php /*  Call merged included template "hidden/slider.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("hidden/slider.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '15107071544f36f81cad4432-74900999');
-content_4f3caba4986dd($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("hidden/slider.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '11057369364f378b738ee320-63071248');
+content_4f3a04f142668($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "hidden/slider.tpl" */?>
     <div class="horizontal_spacer"></div>
 <?php /*  Call merged included template "hidden/menu.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("hidden/menu.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '15107071544f36f81cad4432-74900999');
-content_4f3caba498eaa($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("hidden/menu.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '11057369364f378b738ee320-63071248');
+content_4f3a04f142e2b($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "hidden/menu.tpl" */?>
 </div>
 
 </div>
 </body>
-</html><?php }} ?><?php /* Smarty version Smarty-3.1.7, created on 2012-02-16 02:09:24
+</html><?php }} ?><?php /* Smarty version Smarty-3.1.7, created on 2012-02-14 01:53:37
          compiled from "../smarty/templates/hidden/header.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_4f3caba4975e4')) {function content_4f3caba4975e4($_smarty_tpl) {?><div class="header">
+<?php if ($_valid && !is_callable('content_4f3a04f1415cf')) {function content_4f3a04f1415cf($_smarty_tpl) {?><div class="header">
     <div class="description">A Boutique Real Estate Agency</div>
     <div class="title">Abode<br>Properties</div>
-</div><?php }} ?><?php /* Smarty version Smarty-3.1.7, created on 2012-02-16 02:09:24
+</div><?php }} ?><?php /* Smarty version Smarty-3.1.7, created on 2012-02-14 01:53:37
          compiled from "../smarty/templates/hidden/slider.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_4f3caba4986dd')) {function content_4f3caba4986dd($_smarty_tpl) {?><div class="slider-wrapper theme-default">
+<?php if ($_valid && !is_callable('content_4f3a04f142668')) {function content_4f3a04f142668($_smarty_tpl) {?><div class="slider-wrapper theme-default">
     <div class="slider nivoSlider">
-        <img src="/img/black_kitchen_1050x350.png"/>
-        <img src="/img/black_kitchen_1050x350.png"/>
-        <img src="/img/black_kitchen_1050x350.png"/>
-        <!--
-        <img src="/img/dining_room_large.jpg"/>
-        <img src="/img/family_room_large.jpg"/>
+        <img src="/img/living_room.jpg"/>
+        <img src="/img/dining_room.jpg"/>
+        <img src="/img/kitchen_black.jpg"/>
         <img src="/img/kitchen_table.jpg"/>
         <img src="/img/kitchen_white.jpg"/>
-        -->
     </div>
-</div><?php }} ?><?php /* Smarty version Smarty-3.1.7, created on 2012-02-16 02:09:24
+</div><?php }} ?><?php /* Smarty version Smarty-3.1.7, created on 2012-02-14 01:53:37
          compiled from "../smarty/templates/hidden/menu.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_4f3caba498eaa')) {function content_4f3caba498eaa($_smarty_tpl) {?><div class="menu">
+<?php if ($_valid && !is_callable('content_4f3a04f142e2b')) {function content_4f3a04f142e2b($_smarty_tpl) {?><div class="menu">
     <div class="about_us item">
         <a href="/about_us">
             <div class="title">About Us</div>
