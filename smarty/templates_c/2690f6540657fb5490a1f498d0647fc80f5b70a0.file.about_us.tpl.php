@@ -133,7 +133,7 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "hidden/head
             <div class="main">
                 <h4>Rob Costello:</h4>
                 <p>
-                Abode Properties Inc.’s President and Principal, Rob is a passionate real estate investor
+                Abode Properties Inc.’s Principal, Rob is a passionate real estate investor
                 and market follower/strategist. Having grown up in Lexington, Rob lived on the West Coast, Mid-Atlantic
                 and Western Massachusetts before returning to the Boston area, ultimately settling in Arlington; his
                 having resided in so many locations provides a unique perspective on the needs/desires of local
